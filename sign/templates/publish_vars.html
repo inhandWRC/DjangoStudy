@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>一键发送实时数据</title>
+    </head>
+    <body>
+        <form method="post" action="/publish_action/">
+            <input name="userEmail" type="email" placeholder="用户名"><br>
+            <input name="SN" type="text" placeholder="设备序列号"><br>
+            <input name="serverUrl" type="url" placeholder="平台地址"><br>
+            {{deviceId}}<br>
+            <button id="publish_sub">运行</button>
+        </form>
+    </body>
+</html>
